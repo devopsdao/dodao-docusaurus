@@ -16,7 +16,7 @@ dodao.dev allows for greater scalability and flexibility. With dodao and its NFT
 
 Dodao.dev dApp is built as an uniform platform to bring all software development processes to blockchain. It will be used as work marketplace for developers and art creators. Dodao.devusers currently have three roles:
 
-    customer
+    customer #
     performer
     auditor
 
