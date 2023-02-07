@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Dodao.dev docs',
-  tagline: 'The first Decentralised Job Exchange for tech talents, art creators and business professionals.',
+  title: 'Dodao docs',
+  tagline: 'Documentation of the first Decentralised Job Exchange for tech talents, art creators and business professionals.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
