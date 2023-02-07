@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'We believe in «future of work»',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Our goal is to bring “real-world-business” to blockchain to reduce recruiting- and service fees and providing transparency, immutability, scalability and accessibility.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'How dodao dApp works',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        At the moment, you can test the Devopsdao WebApp on dodao.dev. Soon, you will be able to test the Android dApp first, followed by the iOS and Microsoft Version. Open the Homescreen, connect your Wallet, get yourself some Moonbase-alpha DEV Test Tokens and start testing Devopsdao now! Join Devopsdao today as one of the first users!
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Hire industry Superstars!',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        We will onboard and issue personal NFTs to key blockchain industry developers, so you could post a specific job for developers involved in setting industry standards
       </>
     ),
   },
