@@ -1,7 +1,9 @@
 
 # How Dodao dApp works
 
-At the moment, you can test the Dodao WebApp on [dodao.dev](https://dodao.dev) or download latest [Android release](https://github.com/devopsdao/devopsdao/tags), later we will release for iOS and Microsoft. 
+At the moment, you can test the Dodao WebApp on [dodao.dev](https://dodao.dev) or download latest [Android release](https://github.com/devopsdao/devopsdao/tags), later we will release for iOS and Microsoft.
+
+You can watch a video of how the dApp works here https://youtu.be/aBmh6_0a_4s?si=WMZWDo5Jx_EmqvuJ
 
 
 1. First get some Moonbase Alpha DEV test tokens from the [faucet](https://apps.moonbeam.network/moonbase-alpha/faucet/)
@@ -55,3 +57,4 @@ At certain stages of the Task both the customer and performer can request an aud
 
 
 ![support us](./img/design-prototype/auditor-page-applied-iphone.svg )
+
