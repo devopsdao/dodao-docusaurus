@@ -94,8 +94,9 @@ Dodao supports three main roles:
 
 ## Need Help?
 
-- Check our [troubleshooting guide](../guides/troubleshooting.md)
-- Ask in our community channels
+- Ask in our community channels:
+  - Discord: [Join here](https://discord.gg/qJwsv45QTd)
+  - Telegram: [Join here](https://t.me/dodao_group)
 - Report issues on [GitHub](https://github.com/devopsdao/devopsdao)
 
 Remember: We're currently on testnet, so it's the perfect time to experiment and learn the platform without risk!

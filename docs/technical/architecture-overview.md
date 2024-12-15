@@ -219,7 +219,5 @@ graph TD
 
 - [Smart Contract Documentation](../smart-contract.md)
 - [GitHub Repositories](https://github.com/devopsdao)
-- [Technical Guides](../guides/)
-- [API Documentation](../api/)
 
 This architecture overview provides a foundation for understanding Dodao's technical implementation. For detailed implementation specifics, refer to the respective documentation sections.
