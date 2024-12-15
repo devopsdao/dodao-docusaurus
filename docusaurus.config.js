@@ -12,10 +12,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.dodao.dev/',
+  url: 'https://devopsdao.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/dodao-docusaurus/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -41,16 +41,14 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/devopsdao/dodao-docusaurus/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/devopsdao/dodao-docusaurus/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -128,10 +126,6 @@ const config = {
                 label: 'Instagram',
                 href: 'https://www.instagram.com/dodao.dev',
               },
-              // {
-              //   label: 'Stack Overflow',
-              //   href: 'https://stackoverflow.com/questions/tagged/dodao',
-              // },
             ],
           },
           {
@@ -155,10 +149,6 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
-
-    // plugins: [
-    //   "./plugins/docusaurus-plugin-svgfix/index.ts"
-    // ]
 };
 
 export default config;
