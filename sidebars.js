@@ -88,6 +88,7 @@ const sidebars = {
         'future-of-work-vision',
         'gig-economy',
         'success-stories',
+        'user-stories',
         'user-stories/gitcoin-user-story',
       ],
     },
