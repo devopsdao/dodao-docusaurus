@@ -45,6 +45,7 @@ const sidebars = {
       },
       items: [
         'technical/architecture-overview',
+        'technical/cross-chain-infrastructure',
         'smart-contract',
         'diamond-hld-diagram',
         'security-and-trust',
