@@ -58,21 +58,32 @@ For mainnet launch readiness:
 
 ### Connected Contracts Facets
 
-- **InterchainFacet.sol** [mock]
+- **ProtocolOptimizerFacet.sol** [ready]
+  - Implements dynamic protocol selection
+  - Provides automated fee optimization
+  - Tracks protocol performance metrics
+  - Enables intelligent cross-chain routing
+
+- **InterchainFacet.sol** [mvp]
   - Implements protocol-specific functions for:
     - Axelar
     - Hyperlane
     - LayerZero
     - Wormhole
+  - Enhanced with performance analytics
+  - Integrated with protocol optimizer
 
-- **TasksInterchainFacet.sol** [dev]
+- **TasksInterchainFacet.sol** [mvp]
   - Enables cross-chain Task contract interactions
+  - Optimized message routing
+  - Protocol-aware fee management
 
-- Protocol-specific facets [dev]:
+- Protocol-specific facets [mvp]:
   - AxelarFacet.sol
   - HyperlaneFacet.sol
   - LayerzeroFacet.sol
   - WormholeFacet.sol
+  - Each integrated with protocol optimization
 
 ### Witnet Oracle Facets
 

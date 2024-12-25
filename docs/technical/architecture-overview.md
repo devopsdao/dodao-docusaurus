@@ -30,10 +30,14 @@ This document provides a comprehensive overview of Dodao's technical architectur
    - On-chain Data Management
 
 4. **Cross-chain Infrastructure**
-   - Axelar GMP Integration
-   - Hyperlane Support
-   - LayerZero Protocol
-   - Wormhole Implementation
+   - Protocol Optimization System
+   - Dynamic Protocol Selection
+   - Performance Analytics
+   - Multi-protocol Integration:
+     - Axelar GMP
+     - Hyperlane
+     - LayerZero
+     - Wormhole
 
 ## Smart Contract Architecture
 
@@ -87,12 +91,18 @@ graph TD
 
 ### Cross-chain Features
 
-1. **Asset Bridging**
-   - Token Transfers
-   - State Synchronization
-   - Message Passing
+1. **Protocol Optimization**
+   - Dynamic Protocol Selection
+   - Real-time Cost Analysis
+   - Performance Monitoring
+   - Success Rate Tracking
 
-2. **Protocol Integration**
+2. **Asset Bridging**
+   - Optimized Token Transfers
+   - State Synchronization
+   - Efficient Message Passing
+
+3. **Protocol Integration**
    - Axelar GMP
    - Hyperlane
    - LayerZero
@@ -197,9 +207,11 @@ graph TD
    - Function Delegation
 
 2. **Cross-chain Efficiency**
+   - Intelligent Protocol Selection
+   - Automated Fee Optimization
    - Message Batching
-   - State Synchronization
    - Resource Management
+   - Performance Analytics
 
 ## Future Architecture
 
