@@ -83,12 +83,18 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Vision & Stories',
+      label: 'Vision',
       items: [
         'future-of-work-vision',
         'gig-economy',
-        'success-stories',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'User Stories',
+      items: [
         'user-stories',
+        'success-stories',
         'user-stories/gitcoin-user-story',
       ],
     },
