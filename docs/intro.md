@@ -2,85 +2,140 @@
 sidebar_position: 1
 ---
 
-# About Dodao
+# Cross-chain task marketplace
 
-Let's discover **Dodao in less than 5 minutes**.
+![Future Work with dodao.dev](./img/banners-new/Future%20Work%20with%20dodao.dev.png)
 
-![Support Us](./img/support-dodao-iphone.png)
+**Work across any blockchain. Pay with any token.**
 
-Dodao.dev is a decentralized and permissionless marketplace for tech talents and art creators.
-The dApp takes advantage of the EIP-2535 Diamond-based smart contract DAO upgradeability, ERC-1155 multi-token flexibility, Flutter cross-platform support, and several omnichain layers.
-Dodao is built to be integrated into the Ethereum-compatible blockchain ecosystem and is a truly community-governed project.
+Dodao connects customers and performers across all major blockchains with automated verification, built-in escrow, and seamless cross-chain payments.
 
-Dodao.dev allows for greater scalability and flexibility. With Dodao and its NFT tag-enhanced workflow, teams can easily scale up or down as needed and can also easily add or remove team members. This allows for a more dynamic and flexible workflow, which is essential for successful software development and operations.
+## Why Dodao?
 
-## Dodao Workflow Details
+Traditional freelance platforms force you to choose: either work within their walled garden with limited payment options and high fees, or navigate the complex world of blockchain development alone. Dodao eliminates this false choice by bringing the best of both worlds together.
 
-The Dodao.dev dApp is built as a uniform platform to bring all software development processes to the blockchain. It will be used as a work marketplace for developers and art creators. Dodao.dev users currently have three roles:
+### 🌐 Cross-chain
+Why should your choice of blockchain limit your opportunities? Whether you prefer Ethereum's security, Polygon's speed, or Moonbeam's innovation, Dodao works everywhere. One account, one reputation, unlimited networks. Your skills aren't confined to a single ecosystem – and neither should your work be.
 
-- Customer
-- Performer
-- Auditor
+### 💰 Multi-token  
+Forget the days of converting everything to platform-specific tokens or losing money to exchange fees. Pay with whatever you have – ETH for security, stablecoins for predictability, or even NFTs for unique arrangements. The choice is yours, not ours.
 
-A Customer is able to create a Task contract with the native token of the selected chain and stablecoins as a reward. Once Performers apply for a Task, the Customer is able to select the Performer for Task implementation. After the Task is implemented, the Performer applies for a Customer review. Currently, all negotiations are performed off-chain via a Customer-selected method (such as Telegram or Discord, for example). When the Customer is happy with the work done, they sign the review, and the Performer will be able to withdraw the tokens to their preferred blockchain supported by Axelar (the chain where the task was created, Ethereum, BNB Chain, Fantom, Avalanche, Polygon). If any dispute occurs, an Auditor can be invited to review the task and settle it.
+### 🤖 Automated
+Human intermediaries introduce delays, bias, and errors. Smart contracts execute exactly as programmed, every time. No waiting for manual approvals, no arbitrary policy changes, no "the check is in the mail." When work is completed, payment flows automatically.
 
-At the moment, we are live on Testnet, planning to launch on Mainnet soon. Because we build this dApp for all of us as a community, we need your feedback to build a dApp we all want to use.
+## How it works
 
-## Dodao Technology Highlights
+The complexity of traditional freelance work – contracts, escrow services, payment processors, dispute resolution – all disappears into three simple steps. What used to take weeks of back-and-forth negotiations now happens automatically.
 
-- Blockchain: Moonbeam, Scroll, Ethereum, Polygon, Fantom, zkSync, zkEVM, Mantle, BTTC, Blast
-- Connected Contracts: Axelar, Hyperlane, LayerZero, Wormhole
-- Storage: Arweave
-- App: Dart, Flutter, WalletConnect
-- Smart Contract: Solidity, Ethereum EIP-2535 Diamonds, EIP-1155 Multi-Token Contracts
+### 1. Post tasks
+Describe what you need and lock your payment in smart contract escrow. No upfront fees, no platform tokens required. Your funds stay secure until work is completed to your satisfaction.
 
-The Dodao dApp is built on Flutter 3, powered by the Dart language, a framework optimized for fast native apps on any platform.
+### 2. Get work
+Talented performers from around the world compete for your project with detailed proposals. Review their past work, ratings, and approach. Choose based on merit, not marketing.
 
-Dodao is an early-bird blockchain project based on Flutter, taking advantage of being presented on major platforms. Dodao EIP-2539 based smart contract Diamonds are compiled with Hardhat and depend on the Axelar GMP SDK for cross-chain interoperability. The Dodao web app is served from the decentralized Arweave cloud.
+### 3. Auto-verify
+When work is submitted, smart contracts handle verification and payment automatically. No waiting for human approval, no payment delays, no disputes about "processing time." Code executes, payment flows.
 
-We have implemented Axelar, Hyperlane, LayerZero, and Wormhole smart contracts as Diamond facets to enable cross-chain features.
+## Get started
 
-The Dodao dApp is deployed on Moonbase Alpha and is available via Axelar GMP from Axelar-supported blockchains. It is also available via Hyperlane, Wormhole, and LayerZero bridges.
+<div style={{display: 'flex', gap: '1rem', marginTop: '2rem'}}>
+  <a href="/docs/get-started" className="button button--primary button--lg">
+    Start now
+  </a>
+  <a href="/docs/how-it-works" className="button button--secondary button--lg">
+    Learn more
+  </a>
+</div>
 
-For Web3 interaction, we support our own WebThree library.
+## Supported networks
 
-### Contributing
+We're building the future of work one blockchain at a time. Our testnet strategy focuses on proving cross-chain compatibility across diverse ecosystems before mainnet launch.
 
-- [Dodao.dev dAPP repository](https://github.com/devopsdao/devopsdao), Dart/Flutter
-- [Dodao.dev smart contract repository](https://github.com/devopsdao/devopsdao-smart-contract-diamond), Solidity/Hardhat
+**Current testnet deployment:**
+- **Moonbase Alpha** - Testing Ethereum compatibility and Substrate integration
+- **Polygon Mumbai** - Validating low-cost, high-speed transaction flows
+- **Scroll Sepolia** - Exploring zero-knowledge proof scalability solutions
 
-## Testing
+**Mainnet vision:** Once battle-tested on testnets, we'll deploy across all major networks simultaneously. Ethereum for security, Polygon for speed, Arbitrum for scaling, Moonbeam for Polkadot connectivity, and emerging chains as they mature. Your work opportunities won't be limited by network choice – they'll multiply with every blockchain we support.
 
-1. Apply for the [Dodao.dev dAPP testing program](https://www.devopsdao.com/devopsdao-dapp-testing-program/). Read more in this [Medium article](https://dodao.medium.com/test-the-devopsdao-dapp-from-customer-perspective-585b1c3babda).
-2. Open the [Dodao.dev dApp](https://dodao.dev) or download the latest [Android release](https://github.com/devopsdao/devopsdao/tags).
-3. Provide feedback on bugs on [Dodao Telegram](https://t.me/dodao_group) or [Dodao Discord](https://discord.gg/qJwsv45QTd).
+*Currently perfecting the experience on testnets. When we launch on mainnet, it will be flawless.*
 
-## Promoting
+## Key features
 
-![Support Us](./img/become-an-ambassador-iphone.png)
+Every feature in Dodao solves a real problem that has plagued freelance work for decades. We didn't just build another platform – we reimagined how work should happen in a decentralized world.
 
-1. Apply for the [Dodao.dev Ambassadorship](https://dodao.medium.com/become-a-devopsdao-ambassador-8c9a640f5156).
-2. Share your activities on [Dodao Telegram](https://t.me/dodao_group) or [Dodao Discord](https://discord.gg/qJwsv45QTd).
+### For customers
+Stop worrying about whether you'll get what you paid for. Traditional platforms offer little protection beyond "we'll try to help if something goes wrong." Dodao's smart contracts guarantee your funds stay safe until you're satisfied.
 
-## Earning
+- **Post tasks** with clear requirements and automatic escrow protection
+- **Multi-token payments** – pay with ETH, stablecoins, or NFTs without conversion fees
+- **Automated escrow** locks your funds safely until work meets your standards
+- **Built-in verification** uses smart contracts to confirm completion objectively
 
-![Try as Performer](./img/try-as-performer-iphone.png)
+### For performers  
+Tired of competing with hundreds of applicants for low-paying gigs? Dodao's cross-chain approach opens up opportunities across every major blockchain ecosystem, while our reputation system ensures your quality work gets recognized.
 
-1. Based on your skill profile, apply for the [Dodao.dev developer](https://www.devopsdao.com/developer-onboarding-application/) or [Dodao.dev creator](https://www.devopsdao.com/creator-onboarding-application/) program.
-2. Contribute and share on [Dodao Telegram](https://t.me/dodao_group) or [Dodao Discord](https://discord.gg/qJwsv45QTd).
+- **Find work** across all blockchains without managing multiple accounts
+- **Secure payments** flow automatically when you complete tasks successfully
+- **Build reputation** with permanent NFT achievements that prove your expertise
+- **Cross-chain earnings** let you receive payment in any supported token
 
-## Budget
+### For developers
+Building on traditional platforms means accepting their limitations forever. Dodao's modular architecture grows with the ecosystem, supporting new blockchains and protocols as they emerge.
 
-[Our budget](./assets/budget.xlsx)
+- **Diamond pattern** contracts that upgrade without breaking existing functionality
+- **Cross-chain APIs** provide seamless integration across all supported networks
+- **Multi-protocol** support ensures your applications work everywhere
+- **Open source** codebase means no vendor lock-in or hidden surprises
 
-## Contact Us
+## Community
 
-- Twitter: [https://twitter.com/dodaodev](https://twitter.com/dodaodev)
-- Medium: [https://medium.com/@dodao](https://medium.com/@dodao)
-- YouTube: [https://www.youtube.com/@dodaodev](https://www.youtube.com/@dodaodev)
-- Instagram: [https://www.instagram.com/dodao.dev/](https://www.instagram.com/dodao.dev/)
-- TikTok: [https://tiktok.com/@dodaodev](https://tiktok.com/@dodaodev)
-- GitHub: [https://github.com/devopsdao](https://github.com/devopsdao)
-- Telegram Announcement Channel: [https://t.me/dodao_announcements](https://t.me/dodao_announcements)
-- Telegram Group: [https://t.me/dodao_group](https://t.me/dodao_group)
-- Discord Server: [https://discord.gg/d5ZtpxCXZB](https://discord.gg/d5ZtpxCXZB)
+We're not just building a platform – we're cultivating a global movement of creators, builders, and innovators who believe work should be borderless, fair, and rewarding.
+
+Our community spans continents and time zones, united by a shared vision of decentralized collaboration. From late-night coding sessions in Discord to strategic discussions about the future of work, every voice matters in shaping what we're building together.
+
+**Join the conversation:**
+- **[Discord](https://discord.gg/qJwsv45QTd)** - Real-time collaboration with developers, performers, and customers worldwide
+- **[Telegram](https://t.me/dodao_group)** - Quick updates, support, and community announcements
+- **[GitHub](https://github.com/devopsdao/devopsdao)** - Contribute code, report issues, and help build the future
+- **[Twitter](https://twitter.com/devops_dao)** - Latest developments, ecosystem updates, and community highlights
+
+*Every great platform is built by its community. Come help us build yours.*
+
+## Ready to start?
+
+The future of work is happening now, and you're invited to be part of it. Whether you're looking to get work done, earn from your skills, or build the next generation of work tools, your journey starts with a single step.
+
+**For Customers**: Stop settling for mediocre results and payment headaches. [Post your first task →](/docs/users/customers) and experience what happens when smart contracts handle the complexity while you focus on getting great work done.
+
+**For Performers**: Break free from platform limitations and geographic boundaries. [Find work now →](/docs/users/performers) across every major blockchain and start building a reputation that follows you everywhere.
+
+**For Developers**: Help us build the infrastructure that will power the next decade of decentralized work. [Build on Dodao →](/docs/developers/overview) and create tools that millions will use to collaborate across chains.
+
+*The best time to start was yesterday. The second best time is now.*
+
+---
+
+## Our Vision
+
+**Transforming the future of work** through decentralized collaboration.
+
+Dodao isn't just another freelance platform – we're pioneering a revolutionary approach to how people work and collaborate in the blockchain space. We envision a world where talented individuals can connect, collaborate, and earn rewards without traditional intermediaries limiting their potential.
+
+Imagine a developer in Lagos collaborating with a designer in São Paulo on a project funded by an entrepreneur in Stockholm – all without banks, payment processors, or platform gatekeepers taking their cut. This is the future we're building: a truly global, merit-based economy where your skills and dedication determine your success, not your location, connections, or background.
+
+Our platform creates a decentralized, trustless ecosystem where every transaction is transparent, every rating is permanent, and every opportunity is accessible to anyone with the talent to deliver. We're not just changing how work gets done – we're democratizing access to global opportunities.
+
+### Core Principles
+
+**Decentralization**: We eliminate intermediaries that extract value without adding it. When you complete a task on Dodao, smart contracts automatically handle payment, verification, and reputation updates. No human gatekeepers, no arbitrary decisions, no hidden fees. You maintain full control over your work, reputation, and earnings.
+
+**Transparency**: Every transaction, rating, and decision is recorded on the blockchain, creating an immutable record of trust and quality. Unlike traditional platforms where algorithms and policies change without notice, Dodao's rules are written in code for everyone to see and verify.
+
+**Meritocracy**: Your skills, dedication, and results determine your success – not your location, connections, or ability to game the system. Our reputation system is built on verifiable work completion and peer ratings, creating a true merit-based marketplace.
+
+**Collaboration**: We provide tools that make cross-border, cross-chain collaboration as seamless as working with someone in the same office. Built-in communication, automated escrow, and dispute resolution remove the friction from global teamwork.
+
+**Inclusion**: Whether you're a seasoned developer or just starting your career, whether you're in Silicon Valley or rural Bangladesh, Dodao provides equal access to opportunities. We're building bridges, not walls.
+
+*Currently on testnet. Perfect time to explore risk-free.*
