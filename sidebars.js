@@ -64,6 +64,25 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Investors',
+      link: {
+        type: 'generated-index',
+        title: 'Investment Information',
+        description: 'Comprehensive investment materials and opportunities',
+        keywords: ['investors', 'funding', 'tokenomics', 'traction', 'market'],
+      },
+      items: [
+        'investors/overview',
+        'investors/traction-metrics',
+        'investors/market-opportunity',
+        'investors/competitive-advantage',
+        'investors/tokenomics',
+        'investors/team-advisors',
+        'investors/due-diligence',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Community',
       link: {
         type: 'generated-index',
